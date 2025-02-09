@@ -48,7 +48,7 @@ class Truck extends Vehicle implements
 
     // TODO: The constructor should check if the wheels array has 4 elements and create 4 new default Wheel objects if it does not
     if (wheels.length !== 4) {
-      this.wheels = [new Wheel(), new Wheel(), new Wheel(), new Wheel()];
+      this.wheels = [new Wheel(),new Wheel(), new Wheel(), new Wheel()];
     } else {
       this.wheels = wheels;
     } 
@@ -85,7 +85,7 @@ class Truck extends Vehicle implements
     console.log('Top Speed: ' + this.topSpeed + ' mph');
     console.log('Color: ' + this.color);
     console.log('Towing Capacity: ' + this.towingCapacity + ' lbs');
-    console.log('Wheels: ' + this.wheels);
+    console.log('Wheels: ' + this.wheels.length);
   }
   }
 // Export the Truck class as the default export
