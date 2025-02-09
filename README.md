@@ -17,6 +17,7 @@ To get started with the Vehicle Builder CLI, follow these steps:
 2. Open integrated terminal and run: [npm install] 
 3. To start the CLI application, run the following command: [npm run start]
 ## Usage
+
 Choose Create a new vehicle or Select an existing Vehicle. 
 If create a new vehicle is selected then Select a vehicle type from Car, Truck or Motorbike options.
 For the selected vehicle type provide:  Color:, Make:, Model:, Year:, Weight:, Top Speed: and Towing Capacity:. 
